@@ -2,7 +2,6 @@ const currentDays = document.querySelector('[data-value="days"]');
 const currentHours = document.querySelector('[data-value="hours"]');
 const currentMins = document.querySelector('[data-value="mins"]');
 const currentSecs = document.querySelector('[data-value="secs"]');
-const clockFace = document.querySelector(".timer");
 
 class CountdownTimer {
   constructor({ selector, targetDate }) {
